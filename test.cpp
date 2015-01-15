@@ -2,7 +2,7 @@
 
 bool IsEven(int n)
 {
-    return !(n % 2);
+    return (n % 2);
 }
 
 TEST(EvenTest, Positive)
