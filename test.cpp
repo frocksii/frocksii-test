@@ -8,6 +8,10 @@ bool IsEven(int n)
 TEST(EvenTest, Positive)
 {
     EXPECT_TRUE(IsEven(4));
+}
+
+TEST(OddTest, Positive)
+{
     EXPECT_FALSE(IsEven(3));
 }
 
