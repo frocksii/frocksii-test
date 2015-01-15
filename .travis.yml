@@ -1,0 +1,4 @@
+language: cpp
+compiler: gcc
+script: ./run.sh
+os: linux
